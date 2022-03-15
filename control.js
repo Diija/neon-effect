@@ -17,5 +17,7 @@ neon_sound_file.addEventListener('timeupdate', () => {
     }
 });
 
-rain_sound_file.play();
-neon_sound_file.play();
+window.addEventListener("click", function () {
+    rain_sound_file.play();
+    neon_sound_file.play();
+})
