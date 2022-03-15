@@ -83,3 +83,22 @@ html, body {
         background-color: #AA00DD;
     }
 }
+
+@media only screen and (max-width: 667px) {
+    .button {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 447px) {
+    .button {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 337px) {
+    .button {
+        font-size: 1rem;
+        top: 6rem;
+    }
+}
